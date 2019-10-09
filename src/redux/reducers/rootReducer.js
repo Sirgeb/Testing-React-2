@@ -1,8 +1,8 @@
 import { combineReducers } from 'redux';
-import successReducer from './successReducer';
+import success from './successReducer';
 
 const rootReducer = combineReducers({
-  successReducer
+  success
 });
 
 export default rootReducer;
